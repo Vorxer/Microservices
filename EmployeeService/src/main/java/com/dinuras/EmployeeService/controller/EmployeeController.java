@@ -16,6 +16,11 @@ public class EmployeeController {
     @Autowired
     EmployeeService employeeService;
 
+    @RequestMapping("/hello")
+    public String hello(){
+        return "hello";
+    }
+
     @RequestMapping("/employee/{id}")
     public Employee getByID(@PathVariable int id){
         return employeeService.getEmployeeById(id);

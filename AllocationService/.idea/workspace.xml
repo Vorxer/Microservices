@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3479f078-64d4-480a-880d-420a0c570150" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeService/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../EmployeeService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../EmployeeService/target/classes/application.yml" afterDir="false" />
     </list>
@@ -97,7 +95,19 @@
       <option name="presentableId" value="Default" />
       <updated>1581443014858</updated>
     </task>
+    <task id="LOCAL-00001" summary="with Dockerfile and update application properties">
+      <created>1581560292432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581560292433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="with Dockerfile and update application properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="with Dockerfile and update application properties" />
   </component>
   <component name="WindowStateProjectService">
     <state x="75" y="215" width="800" height="684" key="#Project_Structure" timestamp="1581464563162">
@@ -116,6 +126,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="213" y="303" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1581464649885" />
+    <state x="1060" y="153" width="749" height="808" key="CommitChangelistDialog2" timestamp="1581560292175">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1060" y="153" width="749" height="808" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1581560292175" />
     <state width="908" height="522" key="GridCell.Tab.0.bottom" timestamp="1581474376228">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

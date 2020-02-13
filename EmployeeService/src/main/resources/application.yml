@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/employee_db?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:8101/company_db?createDatabaseIfNotExist=true
     username: spring
-    password: springpwd
+    password: 1234
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
