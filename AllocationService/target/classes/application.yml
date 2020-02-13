@@ -1,8 +1,8 @@
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/allocation_db?createDatabaseIfNotExist=true
-    username: root
-    password: LeadCooledFBR
+    username: spring
+    password: springpwd
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:

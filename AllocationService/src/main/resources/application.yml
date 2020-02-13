@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/allocation_db?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:8101/company_db?createDatabaseIfNotExist=true
     username: spring
-    password: springpwd
+    password: 1234
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
@@ -10,6 +10,6 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: create
   application:
-    name: allocation_db
+    name: company_db
 server:
   port: 8080
