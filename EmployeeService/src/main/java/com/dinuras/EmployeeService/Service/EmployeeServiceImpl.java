@@ -56,7 +56,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             HttpEntity<String> httpEntity = new HttpEntity<>("", new HttpHeaders());
 
             Employee employee1 = employee.get();
-            ResponseEntity<Allocation[]> responseEntity = restTemplate().exchange("" + id, HttpMethod.GET, httpEntity, Allocation[].class);
+            ResponseEntity<Allocation[]> responseEntity = restTemplate().exchange("localhost:8090" + id, HttpMethod.GET, httpEntity, Allocation[].class);
             return employee1;
         }
         return null;

@@ -3,10 +3,7 @@ package com.dinuras.AllocationService.controller;
 import com.dinuras.AllocationService.Service.AllocationService;
 import com.dinuras.AllocationService.model.Allocation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -32,8 +29,8 @@ public class AllocationController {
         return allocationService.add(allocation);
     }
 
-    @RequestMapping("/getByEmp")
-    List<Allocation> getAllocationByEmployee(int id) {
+    @RequestMapping("/getByEmp/{id}")
+    List<Allocation> getAllocationByEmployee(@PathVariable int id) {
 
         List<Allocation> allocations= allocationService.getAllocationByEmployee(id);
         return allocations;
