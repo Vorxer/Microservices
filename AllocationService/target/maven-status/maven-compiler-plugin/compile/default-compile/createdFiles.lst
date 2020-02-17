@@ -1,0 +1,6 @@
+com/dinuras/AllocationService/Repository/AllocationRepository.class
+com/dinuras/AllocationService/Service/AllocationServiceImpl.class
+com/dinuras/AllocationService/Service/AllocationService.class
+com/dinuras/AllocationService/controller/AllocationController.class
+com/dinuras/AllocationService/Application.class
+com/dinuras/AllocationService/model/Allocation.class

@@ -11,7 +11,7 @@ public interface AllocationService {
 
     Allocation add(Allocation allocation);
 
-    List<Allocation> getAllocationByEmployee(int id);
+    List<Allocation> getAllocationByEmployee(Integer id);
 
     void delete(Integer id);
 }

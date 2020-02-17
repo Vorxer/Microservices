@@ -4,6 +4,7 @@ import com.dinuras.EmployeeService.Repository.EmployeeRepository;
 import com.dinuras.EmployeeService.model.Allocation;
 import com.dinuras.EmployeeService.model.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -21,8 +22,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     EmployeeRepository repository;
 
+    @LoadBalanced
     @Bean
-    RestTemplate restTemplate() {
+    RestTemplate restTemplate(){
         return new RestTemplate();
     }
 
@@ -56,7 +58,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             HttpEntity<String> httpEntity = new HttpEntity<>("", new HttpHeaders());
 
             Employee employee1 = employee.get();
-            ResponseEntity<Allocation[]> responseEntity = restTemplate().exchange("localhost:8090" + id, HttpMethod.GET, httpEntity, Allocation[].class);
+            ResponseEntity<Allocation[]> responseEntity = restTemplate().exchange("allocation_service/allocationServices/getByEmp/" + id, HttpMethod.GET, httpEntity, Allocation[].class);
             return employee1;
         }
         return null;

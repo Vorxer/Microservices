@@ -1,7 +1,7 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:8060/employee_db?createDatabaseIfNotExist=true
-    username: root
+    url: jdbc:mysql://localhost:3306/employee_db?createDatabaseIfNotExist=true
+    username: microservice
     password: root
     driver-class-name: com.mysql.jdbc.Driver
   jpa:
@@ -10,6 +10,6 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: create
   application:
-    name: employee_db
+    name: employee_service
 server:
-  port: 8080
+  port: 0

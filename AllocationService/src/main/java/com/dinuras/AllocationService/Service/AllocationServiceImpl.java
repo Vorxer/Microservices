@@ -4,14 +4,23 @@ import com.dinuras.AllocationService.Repository.AllocationRepository;
 import com.dinuras.AllocationService.model.Allocation;
 //import org.hibernate.criterion.Example;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.domain.Example;
+import org.springframework.web.client.RestTemplate;
 
 @Service
 public class AllocationServiceImpl implements  AllocationService {
+
+    @LoadBalanced
+    @Bean
+    RestTemplate restTemplate(){
+        return new RestTemplate();
+    }
 
 
     @Autowired
@@ -40,7 +49,7 @@ public class AllocationServiceImpl implements  AllocationService {
     }
 
     @Override
-    public List<Allocation> getAllocationByEmployee(int id) {
+    public List<Allocation> getAllocationByEmployee(Integer id) {
 
         Allocation reference= new Allocation();
 
@@ -48,10 +57,9 @@ public class AllocationServiceImpl implements  AllocationService {
 
         Example<Allocation> exampleAllocation = Example.of(reference);
 
-        Optional<Allocation> example= Optional.of(reference);
-
         List<Allocation> searchResult = repository.findAll(exampleAllocation);
 
+        System.out.println(searchResult);
         return searchResult;
 
     }

@@ -30,7 +30,7 @@ public class AllocationController {
     }
 
     @RequestMapping("/getByEmp/{id}")
-    List<Allocation> getAllocationByEmployee(@PathVariable int id) {
+    List<Allocation> getAllocationByEmployee(@PathVariable Integer id) {
 
         List<Allocation> allocations= allocationService.getAllocationByEmployee(id);
         return allocations;
