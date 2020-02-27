@@ -2,59 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ebe76e3-9cf0-487e-94f1-25347fcbe893" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/src/main/java/com/dinuras/auth/AuthServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/src/main/java/com/dinuras/auth/config/AuthServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authServer/src/test/java/com/dinuras/auth/AuthServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/src/main/java/com/example/demo/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/src/main/resources/config/AllocationService.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/src/main/resources/config/EmployeeService.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../configServer/src/test/java/com/example/demo/ConfigServerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AllocationService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/AllocationService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/AllocationService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/Repository/AllocationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/Repository/AllocationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/Service/AllocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/Service/AllocationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/Service/AllocationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/Service/AllocationServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/controller/AllocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/controller/AllocationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/model/Allocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/src/main/java/com/dinuras/AllocationService/model/Allocation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AllocationService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/AllocationService-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/AllocationService-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/AllocationService-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/AllocationService-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AllocationService/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AllocationService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/Service/AllocationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/Service/AllocationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/Service/AllocationServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/Service/AllocationServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/controller/AllocationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/controller/AllocationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/model/Allocation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/classes/com/dinuras/AllocationService/model/Allocation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AllocationService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiscoveryService/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscoveryService/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiscoveryService/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscoveryService/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiscoveryService/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiscoveryService/DiscoveryService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscoveryService/DiscoveryService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiscoveryService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscoveryService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiscoveryService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscoveryService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DiscoveryService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscoveryService/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AllocationService/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../AllocationService/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmployeeService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EmployeeService.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockercommands" beforeDir="false" afterPath="$PROJECT_DIR$/dockercommands" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dinuras/EmployeeService/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dinuras/EmployeeService/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/dinuras/EmployeeService/Service/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dinuras/EmployeeService/Service/EmployeeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EmployeeService-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/EmployeeService-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/dinuras/EmployeeService/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dinuras/EmployeeService/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,15 +140,19 @@
       <screen x="70" y="27" width="1296" height="741" />
     </state>
     <state x="206" y="31" width="1024" height="737" key="SettingsEditor/70.27.1296.741@70.27.1296.741" timestamp="1581696863436" />
-    <state x="447" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1581819291497">
+    <state x="447" y="307" key="com.intellij.ide.util.TipDialog" timestamp="1582766777328">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="447" y="307" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1581819291497" />
+    <state x="447" y="307" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582766777328" />
     <state x="372" y="224" key="com.intellij.ide.util.TipDialog/70.27.1296.741@70.27.1296.741" timestamp="1581696375922" />
     <state x="643" y="150" width="634" height="807" key="find.popup" timestamp="1581821324199">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="643" y="150" width="634" height="807" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1581821324199" />
+    <state x="371" y="242" width="1168" height="630" key="new project wizard" timestamp="1582765637876">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="371" y="242" width="1168" height="630" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1582765637876" />
     <state x="428" y="256" width="728" height="329" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581696858379">
       <screen x="70" y="27" width="1296" height="741" />
     </state>

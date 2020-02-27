@@ -9,6 +9,4 @@ import java.util.List;
 @Repository
 public interface AllocationRepository extends JpaRepository<Allocation,Integer> {
 
-    //public List<Allocation> findAllocationsByEmpid(Integer id);
-
 }

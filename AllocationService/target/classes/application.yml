@@ -10,6 +10,6 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
       ddl-auto: update
   application:
-    name: allocation_service
+    name: allocator
 server:
   port: 0
