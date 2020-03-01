@@ -22,8 +22,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     EmployeeRepository repository;
 
-    @LoadBalanced
+
     @Bean
+    @LoadBalanced
     RestTemplate restTemplate(){
         return new RestTemplate();
     }
@@ -58,7 +59,7 @@ public class EmployeeServiceImpl implements EmployeeService {
             HttpEntity<String> httpEntity = new HttpEntity<>("", new HttpHeaders());
 
             Employee employee1 = employee.get();
-            ResponseEntity<Allocation[]> responseEntity = restTemplate().exchange("allocation_service/allocationServices/getByEmp/" + id, HttpMethod.GET, httpEntity, Allocation[].class);
+            ResponseEntity<Allocation[]> responseEntity = restTemplate().exchange("http://localhost:8180/allocationServices/allocation/" + id, HttpMethod.GET, httpEntity, Allocation[].class);
             return employee1;
         }
         return null;

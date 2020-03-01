@@ -13,5 +13,4 @@ public interface AllocationService {
 
     List<Allocation> getAllocationByEmployee(Integer id);
 
-    void delete(Integer id);
 }

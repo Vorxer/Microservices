@@ -65,11 +65,6 @@ public class Employee {
         Location = location;
     }
 
-    public Employee(String name, String location) {
-        Name = name;
-        Location = location;
-    }
-
     public int getID() {
         return ID;
     }
@@ -86,17 +81,4 @@ public class Employee {
         Name = name;
     }
 
-    public static List<Employee> getAllEmployees() {
-        Employee Phoebe = new Employee("Phoebe", "Mars");
-        Employee Ross = new Employee("Tim", "London");
-        Employee Rachel = new Employee( "Ross","Paris");
-        Employee Joey = new Employee("Joey","Italy");
-        Employee Chandler = new Employee("Chandler", "Yemen");
-        Employee Monica = new Employee("Monica", "Utopia");
-
-        List<Employee> Employees = Arrays.asList(Phoebe, Rachel, Monica, Ross, Joey, Chandler);
-
-        return Employees;
-
-    }
 }

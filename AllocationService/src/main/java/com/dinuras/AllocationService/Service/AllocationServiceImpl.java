@@ -15,8 +15,8 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class AllocationServiceImpl implements  AllocationService {
 
-    @LoadBalanced
     @Bean
+    @LoadBalanced
     RestTemplate restTemplate(){
         return new RestTemplate();
     }
@@ -62,16 +62,6 @@ public class AllocationServiceImpl implements  AllocationService {
         return searchResult;
 
     }
-
-    @Override
-    public void delete(Integer id) {
-
-        repository.deleteById(id);
-
-    }
-
-
-
 
 
 }

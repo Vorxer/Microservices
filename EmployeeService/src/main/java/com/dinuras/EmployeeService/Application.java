@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
+//Allows Discovery Service Registration
 @EnableEurekaClient
 public class Application {
 

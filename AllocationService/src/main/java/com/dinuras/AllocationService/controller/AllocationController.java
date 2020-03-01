@@ -14,6 +14,12 @@ public class AllocationController {
     @Autowired
     AllocationService allocationService;
 
+
+    @RequestMapping("/allocatorHello")
+    public String hello(){
+        return "Hello from Allocator";
+    }
+
     @RequestMapping("/allocations")
     public List<Allocation> getAllAllocations(){
         return allocationService.getAllocation();

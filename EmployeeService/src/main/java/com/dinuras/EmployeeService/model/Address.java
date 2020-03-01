@@ -9,15 +9,7 @@ public class Address {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int ID;
 
-    public Address(String address) {
-        this.address = address;
-    }
-
     String address;
-
-    public Address(int ID) {
-        this.ID = ID;
-    }
 
     public int getID() {
         return ID;
